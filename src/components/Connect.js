@@ -2,16 +2,15 @@ import React from 'react';
 
 function Connect(props) {
     function isExpanded() {
-        if(props.currentPage == "Connect") {
+        if(props.currentPage === "Connect") {
             return (
                 <div>
-                    Connect Expanded!
-                </div>
+Fill out this form!                </div>
             )
         } else {
             return (
                 <div>
-                    Connect Collapsed!
+                    
                 </div>
             )
         }

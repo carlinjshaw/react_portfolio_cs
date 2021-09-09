@@ -11,14 +11,15 @@ import {useState} from 'react';
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState("About")
+  //useState method will regulate which page to render
+  const [currentPage, setCurrentPage] = useState(false)
 
   return (
     <div>
 
       <Header setCurrentPage={setCurrentPage}/>
       <About currentPage={currentPage}/>
-      <Work/>
+      <Work currentPage= {currentPage}/>
       <Connect currentPage={currentPage}/>
       <Resume currentPage={currentPage}/>
       <Footer/>

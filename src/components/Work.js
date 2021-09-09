@@ -2,6 +2,10 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 
 function Work(props) {
+
+  if(props.currentPage === "Work") {
+
+  
     return (
         <div>
     
@@ -46,6 +50,11 @@ function Work(props) {
 
         </div>
     );
+  } else {
+    return (
+      <div></div>
+    )
+  }
 }
 
 export default Work;

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume(props) {
     function isExpanded() {
-        if(props.currentPage == "Resume") {
+        if(props.currentPage === "Resume") {
             return (
                 <div>
                     Resume Expanded!
