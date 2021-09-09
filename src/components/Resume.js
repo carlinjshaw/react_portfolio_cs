@@ -5,13 +5,12 @@ function Resume(props) {
         if(props.currentPage === "Resume") {
             return (
                 <div>
-                    Resume Expanded!
+                    Resume doc here!
                 </div>
             )
         } else {
             return (
                 <div>
-                    Resume Collapsed!
                 </div>
             )
         }
