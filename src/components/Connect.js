@@ -6,14 +6,16 @@ import {useState} from 'react';
 function Connect(props) {
   const [textValue, setTextValue] = useState('hi')
   const [emailValue, setEmailValue] = useState('email@aol.com')
-
+  const [nameValue, setNameValue] = useState('John Smith')
 
 //this gives the setter the value of whatever is typed in the form
 const onChangeHandler = (event) => {
    if (event.target.id === "email") {
      setEmailValue(event.target.value)
-   } else {
+   } else if (event.target.id === "textEntry") {
      setTextValue(event.target.value)
+   } else if (event.target.id === "nameEntry") {
+     setNameValue(event.target.value)
    }
 }
 
@@ -34,13 +36,13 @@ event.preventDefault()
 //this validates that the message entry has text in it
 const onBlurdHandler = (event) => {
 
-  if (event.target.id === "textEntry") {
+  // if (event.target.id === "textEntry") {
     const messageValue = event.target.value
 
     if(messageValue === "") {
       window.alert("Please enter a message")
     }
-  }
+  
 }
 
   function connectForm() {
@@ -49,6 +51,11 @@ const onBlurdHandler = (event) => {
       <div>
         Want to connect?
       <Form>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+    <Form.Label>Name:</Form.Label>
+    <Form.Control onBlur={onBlurdHandler} onChange= {onChangeHandler} id="nameEntry" placeholder="John Smith" value={nameValue}/>
+  </Form.Group>
+
   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
     <Form.Label>Email address:</Form.Label>
     <Form.Control onBlur={onBlurHandler} onChange= {onChangeHandler} id="email" type="email" placeholder="name@example.com" value={emailValue}/>

@@ -5,9 +5,24 @@
     flex-wrap: wrap;
   }
 
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  margin: 20px;
+}
+
 .projectImages {
   width: 350px;
   height: 300px;
-  margin: 50px;
-
+  border: solid;
+  border-radius: 5px;
+  border-color: black;
 }
+
+.profileImage {
+  width: 30%;
+  height: 30%;
+}
+

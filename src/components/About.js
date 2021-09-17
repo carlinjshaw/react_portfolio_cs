@@ -1,5 +1,5 @@
 import React from 'react';
-
+import profile from '../assets/profile.jpg'
 
 function About(props) {
 
@@ -7,9 +7,10 @@ function About(props) {
         if(props.currentPage === "About") {
             return (
                 <div>
-                    My name is Carlin shaw. I am a science-loving, spiritual, christian adventurer, philosophizer, 
-      school-teacher and web developer. I used to teach engineering in public middle school, and now
-      I do web developement. Reach out if you want to connect!
+                    <img class="profileImage" src= {profile}></img>
+                    My name is Carlin shaw. I have taught STEM in public school for most of my professional life. 
+                    I studied Web Development at Univesity of Central Florida. 
+                    I like to read fiction and philosophy, and play basketball and Ultimate Frisbee, and hike in the mountains. 
                 </div>
             )
         } else {
