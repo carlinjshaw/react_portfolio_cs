@@ -49,7 +49,7 @@ const onBlurdHandler = (event) => {
     if (props.currentPage === "Connect") {
       return (
       <div>
-        Want to connect?
+        <h4>Want to connect?</h4>
       <Form>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
     <Form.Label>Name:</Form.Label>
