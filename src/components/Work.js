@@ -16,7 +16,12 @@ function Work(props) {
     
 
  <div class = "container">
-          <div class = "item">Item 1
+          <div class = "item">
+            <div>MVC project
+<a href="https://calm-basin-00430.herokuapp.com/">Link</a>_____
+<a href="https://github.com/carlinjshaw/MVC-cshaw">Github</a>
+Uses Sequelize, Express, MVC format. 
+            </div>
               <img class="projectImages" src= {mvc} />
           </div>
           <div class = "item">Item 2

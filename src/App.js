@@ -6,13 +6,14 @@ import Connect from './components/Connect'
 import Footer from './components/Footer'
 import Resume from './components/Resume'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import {useState} from 'react';
 
 function App() {
 
   //useState method will regulate which page to render
-  const [currentPage, setCurrentPage] = useState(false)
+  const [currentPage, setCurrentPage] = useState('About')
+
+
 
   return (
     <div>
