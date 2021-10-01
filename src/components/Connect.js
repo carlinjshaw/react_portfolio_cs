@@ -48,26 +48,48 @@ const onBlurdHandler = (event) => {
   function connectForm() {
     if (props.currentPage === "Connect") {
       return (
-      <div>
-        <h4>Want to connect?</h4>
-      <Form>
-      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-    <Form.Label>Name:</Form.Label>
-    <Form.Control onBlur={onBlurdHandler} onChange= {onChangeHandler} id="nameEntry" placeholder="John Smith" value={nameValue}/>
-  </Form.Group>
+        <div>
+          <h4>Want to connect?</h4>
+          <Form>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Name:</Form.Label>
+              <Form.Control
+                onBlur={onBlurdHandler}
+                onChange={onChangeHandler}
+                id="nameEntry"
+                placeholder="John Smith"
+                value={nameValue}
+              />
+            </Form.Group>
 
-  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-    <Form.Label>Email address:</Form.Label>
-    <Form.Control onBlur={onBlurHandler} onChange= {onChangeHandler} id="email" type="email" placeholder="name@example.com" value={emailValue}/>
-  </Form.Group>
-  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-    <Form.Label>Message:</Form.Label>
-    <Form.Control onBlur={onBlurdHandler} onChange= {onChangeHandler} id="textEntry" as="textarea" rows={3} value= {textValue}/>
-  </Form.Group>
-</Form>
-
-</div>
-      )
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Email address:</Form.Label>
+              <Form.Control
+                onBlur={onBlurHandler}
+                onChange={onChangeHandler}
+                id="email"
+                type="email"
+                placeholder="name@example.com"
+                value={emailValue}
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>Message:</Form.Label>
+              <Form.Control
+                onBlur={onBlurdHandler}
+                onChange={onChangeHandler}
+                id="textEntry"
+                as="textarea"
+                rows={3}
+                value={textValue}
+              />
+            </Form.Group>
+          </Form>
+        </div>
+      );
     } else {
       return <div></div>;
     }

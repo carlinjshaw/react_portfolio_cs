@@ -13,7 +13,7 @@ function Work(props) {
   
     return (
       <div>
-        <div class="container">
+        <div class="cards-container">
           <div class="item">
               <h4>MVC Blog</h4> 
               <a href="https://calm-basin-00430.herokuapp.com/">Site</a> 
