@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
   margin: 20px;
 }
 
@@ -21,10 +20,7 @@
   border-color: black;
 }
 
-.profileImage {
-  width: 30%;
-  height: 30%;
-}
+
 
 /* the following styles are for the other project */
 .character-form {
@@ -70,7 +66,32 @@ border: solid;
   opacity: 0.5;
 }
 
+.about_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  background-color: rgb(73, 129, 167);
+  
+  margin:0;
+}
 
+.profileImage {
+  width: 20%; 
+  height: 30%;
+}
 
-
-
+.about_text {
+  font-size: x-large;
+  width: 30%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 
+.about_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */

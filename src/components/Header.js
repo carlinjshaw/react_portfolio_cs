@@ -7,11 +7,8 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 function Header(props) {
     return (
         <div>
-            {/* <button onClick={() => {props.setCurrentPage("About")}}>About</button>
-            <button onClick={() => {props.setCurrentPage("Connect")}}>Connect</button>
-            <button onClick={() => {props.setCurrentPage("Resume")}}>Resume</button> */}
+            
 
-<>
   <Navbar bg="dark" variant="dark">
     <Container>
     <Navbar.Brand href="#home">Hello, I'm Carlin</Navbar.Brand>
@@ -23,8 +20,7 @@ function Header(props) {
     </Nav>
     </Container>
   </Navbar>
-  <br />
-</>
+
 
         </div>
     );

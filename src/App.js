@@ -24,7 +24,7 @@ function App() {
       <Work currentPage= {currentPage}/>
       <Connect currentPage={currentPage}/>
       <Resume currentPage={currentPage}/>
-      {/* <Footer/> */}
+      
     </div>
   );
 }
