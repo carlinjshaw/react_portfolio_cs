@@ -12,7 +12,7 @@ function Work(props) {
 
   
     return (
-      <div>
+      <div class = "workPage">
         <div class="cards-container">
           <div class="item">
               <h4>MVC Blog</h4> 

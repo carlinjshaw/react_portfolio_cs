@@ -73,8 +73,9 @@ border: solid;
   /* flex-wrap: wrap; */
   /* justify-content: center; */
   background-color: rgb(73, 129, 167);
-  
-  margin:0;
+  box-sizing: border-box;
+  height: max-content;
+  margin:0px ;
 }
 
 .profileImage {
@@ -95,3 +96,8 @@ border: solid;
   flex-direction: column;
   justify-content: center;
 } */
+
+.workPage {
+  background-color: rgb(73, 129, 167);
+
+}

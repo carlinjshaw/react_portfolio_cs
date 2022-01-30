@@ -4,33 +4,21 @@ import Form from 'react-bootstrap/Form'
 import FloatingLabel from 'react-bootstrap/esm/FloatingLabel';
 
 function About(props) {
-
-    function isExpanded() {
-        if(props.currentPage === "About") {
-            return (
-              <div class = "about_page">
-                <img class="profileImage about_item" src={profile}></img>
-                <article class= "about_text about_item">
-                    <p>Carlin Shaw.</p>
-                    <p>STEM teacher</p>   
-                    <p>Junior Developer</p>
-                </article>
-               
-              </div>
-            );
-        } else {
-            return (
-                <div>
-                </div>
-            )
-        }
-    }
-
+  if (props.currentPage === "About") {
     return (
-        <div>
-           {isExpanded()}
-        </div>
+      <div class="about_page">
+        <img class="profileImage about_item" src={profile}></img>
+        <article class="about_text item">
+          <p>Carlin Shaw</p>
+          <p>STEM teacher</p>
+          <p>Junior Developer</p>
+        </article>
+      </div>
     );
+  } else {
+    return <div></div>;
+  }
 }
+
 
 export default About;

@@ -20,7 +20,6 @@ function App() {
 
       <Header setCurrentPage={setCurrentPage}/>
       <About currentPage={currentPage}/>
-      
       <Work currentPage= {currentPage}/>
       <Connect currentPage={currentPage}/>
       <Resume currentPage={currentPage}/>
