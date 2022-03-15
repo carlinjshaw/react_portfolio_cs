@@ -17,13 +17,11 @@ function App() {
 
   return (
     <div>
-
       <Header setCurrentPage={setCurrentPage}/>
       <About currentPage={currentPage}/>
       <Work currentPage= {currentPage}/>
       <Connect currentPage={currentPage}/>
       <Resume currentPage={currentPage}/>
-      
     </div>
   );
 }

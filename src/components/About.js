@@ -13,6 +13,7 @@ function About(props) {
           <p>STEM teacher</p>
           <p>Junior Developer</p>
         </article>
+
       </div>
     );
   } else {
