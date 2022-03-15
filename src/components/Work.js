@@ -5,6 +5,7 @@ import passwordGenerator from '../assets/password_gen_project.png'
 import sqlProject from '../assets/sql_inquirer_project.PNG'
 import workoutProject from '../assets/workout-app.PNG'
 import weather from '../assets/weather-api.PNG'
+import cryptGame from '../assets/crypt_crawler.png'
 
 function Work(props) {
 
@@ -22,12 +23,12 @@ function Work(props) {
             <img class="projectImages" src={mvc}/>
           </div>
           <div class="item">
-            <h4>Note Taker</h4>
-            <a href="https://express-note-taker-cshaw.herokuapp.com/">Site</a>
-            <a href="https://github.com/carlinjshaw/express-notetaker-cshaw">Github</a>
+            <h4>React Game</h4>
+            <a href="https://crypt-crawler.herokuapp.com/">Site</a>
+            <a href="https://github.com/Salas4969/Project-3-Crypt-Crawler">Github</a>
 
-            Uses Node.js, Express.js, APIs
-            <img class="projectImages" src={expressProject} />
+            Uses React, Heroku, Mongoose, GraphQL
+            <img class="projectImages" src={cryptGame} />
           </div>
           <div class="item">
             <h4>Password Generator</h4>
