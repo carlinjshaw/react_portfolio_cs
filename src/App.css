@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   margin: 20px;
+  color: white;
 }
 
 .projectImages {
@@ -17,7 +18,7 @@
   height: 300px;
   border: solid;
   border-radius: 5px;
-  border-color: black;
+  border-color: white;
 }
 
 
@@ -105,14 +106,21 @@ border: solid;
   min-height: 100vh;
 }
 
-.connect-form {
-  /* display: flex;  
-  width: 500px; */
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.connect-page {
   background-color: rgb(73, 129, 167);
   width: 100vw;
   min-height: 100vh;
+}
+
+.connect-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-block: 70px;
+
+}
+
+.cnt-form-items {
+  width:500px
 }

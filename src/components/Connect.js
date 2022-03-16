@@ -49,9 +49,10 @@ const onBlurdHandler = (event) => {
   function connectForm() {
     if (props.currentPage === "Connect") {
       return (
-        <div className='connect-form'>
+        <div className='connect-page'>
+          <div className= 'connect-form'>
           <h4>Want to connect?</h4>
-          <Form>
+          <Form className = 'cnt-form-items'>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Name:</Form.Label>
               <Form.Control
@@ -64,7 +65,7 @@ const onBlurdHandler = (event) => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>dress:</Form.Label>
+              <Form.Label>Email address:</Form.Label>
               <Form.Control
                 onBlur={onBlurHandler}
                 onChange={onChangeHandler}
@@ -89,6 +90,7 @@ const onBlurdHandler = (event) => {
               />
             </Form.Group>
           </Form>
+          </div>
         </div>
       );
     } else {
