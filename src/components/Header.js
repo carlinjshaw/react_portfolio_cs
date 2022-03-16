@@ -11,7 +11,7 @@ function Header(props) {
 
   <Navbar bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand href="#home">Hello, I'm Carlin</Navbar.Brand>
+    <Navbar.Brand href="#home">Developer Portfolio</Navbar.Brand>
     <Nav className="me-auto">
       <Nav.Link href="#About" onClick={() => {props.setCurrentPage("About")}} >About</Nav.Link>
       <Nav.Link href="#work" onClick={() => {props.setCurrentPage("Work")}}>Work</Nav.Link>

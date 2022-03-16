@@ -71,12 +71,17 @@ border: solid;
   flex-direction: column;
   align-items: center;
   background-color: rgb(73, 129, 167);
-
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .profileImage {
   width: 20%; 
   height: 30%;
+  border-radius: 18px;
+  border-width: 20px;
+  border: solid;
+  border-color: white;
 }
 
 .about_text {
@@ -85,10 +90,29 @@ border: solid;
   display:flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+}
+
+.about-hello {
+  color: white;
+  padding-block: 50px;
 }
 
 
 .workPage {
   background-color: rgb(73, 129, 167);
+  width: 100vw;
+  min-height: 100vh;
+}
 
+.connect-form {
+  /* display: flex;  
+  width: 500px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(73, 129, 167);
+  width: 100vw;
+  min-height: 100vh;
 }
