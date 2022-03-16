@@ -6,7 +6,7 @@ import sqlProject from '../assets/sql_inquirer_project.PNG'
 import workoutProject from '../assets/workout-app.PNG'
 import weather from '../assets/weather-api.PNG'
 import cryptGame from '../assets/crypt_crawler.png'
-
+import githubSymbol from '../assets/github-153-675523.png'
 function Work(props) {
 
   if(props.currentPage === "Work") {
@@ -18,7 +18,10 @@ function Work(props) {
           <div class="item">
               <h4>MVC Blog</h4> 
               <a href="https://calm-basin-00430.herokuapp.com/">Site</a> 
-              <a href="https://github.com/carlinjshaw/MVC-cshaw">Github</a> 
+              
+              <a href="https://github.com/carlinjshaw/MVC-cshaw"><img className='work-mvs-img' src={githubSymbol}></img></a> 
+              
+              
               Uses Sequelize, Express, MVC format. 
             <img class="projectImages" src={mvc}/>
           </div>

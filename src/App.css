@@ -101,11 +101,15 @@ border: solid;
   padding-block: 50px;
 }
 
-
+/* the following are for the work page */
 .workPage {
   background-color: rgb(73, 129, 167);
   width: 100vw;
   min-height: 100vh;
+}
+.work-mvs-img {
+  width: 25px;
+  height: 25px;
 }
 
 .connect-page {
@@ -138,8 +142,66 @@ border: solid;
 }
 
 .resume {
-  margin: 70px;
+  margin: 20px;
   border-radius: 15px;
   border: solid;
   border-color: black;
+}
+
+.resume:hover{
+  opacity:0.6;
+}
+
+
+button {
+  font-size: 2em;
+  background: rgb(57, 104, 134);
+  
+  border: 0.25rem solid black;
+  padding: 0.85em 0.75em;
+  margin: 1rem;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;  
+}
+
+button:hover {
+  color: black;
+  text-decoration: none;
+}
+
+button::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+
+button[class^="slide"]::after {
+  transition: all 0.35s;
+}
+
+button[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.35s;
+}
+
+button.slide_from_top::after {
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+}
+
+.resume-button {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none !important;
 }
