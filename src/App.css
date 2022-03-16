@@ -16,10 +16,12 @@
 .projectImages {
   width: 350px;
   height: 300px;
-  border: solid;
-  border-radius: 5px;
+  /* border: solid; */
+  border-radius: 15px;
   border-color: white;
 }
+
+
 
 
 
@@ -123,4 +125,21 @@ border: solid;
 
 .cnt-form-items {
   width:500px
+}
+
+.resume-page {
+  background-color: rgb(73, 129, 167);
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.resume {
+  margin: 70px;
+  border-radius: 15px;
+  border: solid;
+  border-color: black;
 }
