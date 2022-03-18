@@ -62,7 +62,7 @@ function Work(props) {
 
             
                   <a href="https://github.com/carlinjshaw/sql-employee-manager-cshaw">
-                    <img style= {{left: "50%"}} className="work-git" src={githubSymbol}></img>
+                    <img style= {{left: "46%"}} className="work-git" src={githubSymbol}></img>
                   </a>
 
           </div>
