@@ -32,66 +32,57 @@ function Work(props) {
             <h4>React Game</h4>
             Uses React, Heroku, Mongoose, GraphQL
             <img class="projectImages" src={cryptGame} />
-                  <a href="https://crypt-crawler.herokuapp.com/">
-                    <img className="work-link" src={linkImage}></img>
-                  </a>
-                  <a href="https://github.com/carlinjshaw/MVC-cshaw">
-                    <img className="work-git" src={githubSymbol}></img>
-                  </a>
-
+            <a href="https://crypt-crawler.herokuapp.com/">
+              <img className="work-link" src={linkImage}></img>
+            </a>
+            <a href="https://github.com/carlinjshaw/MVC-cshaw">
+              <img className="work-git" src={githubSymbol}></img>
+            </a>
           </div>
           <div class="item">
             <h4>Password Generator</h4>
-            
             Uses Javascript
             <img class="projectImages" src={passwordGenerator} />
-
             <a href="https://carlinjshaw.github.io/03-password/">
-                    <img className="work-link" src={linkImage}></img>
-                  </a>
-                  <a href="https://github.com/carlinjshaw/03-password">
-                    <img className="work-git" src={githubSymbol}></img>
-                  </a>
-
+              <img className="work-link" src={linkImage}></img>
+            </a>
+            <a href="https://github.com/carlinjshaw/03-password">
+              <img className="work-git" src={githubSymbol}></img>
+            </a>
           </div>
           <div class="item">
             <h4>SQL Employee Manager</h4>
-            
             Uses MySql, Inquirer
             <img class="projectImages" src={sqlProject} />
-
-            
-                  <a href="https://github.com/carlinjshaw/sql-employee-manager-cshaw">
-                    <img style= {{left: "46%"}} className="work-git" src={githubSymbol}></img>
-                  </a>
-
+            <a href="https://github.com/carlinjshaw/sql-employee-manager-cshaw">
+              <img
+                style={{ left: "46%" }}
+                className="work-git"
+                src={githubSymbol}
+              ></img>
+            </a>
           </div>
           <div class="item">
             <h4>Workout Tracker API</h4>
-            
             Uses Sequelize, Node.js, Express, Handlebars
             <img class="projectImages" src={workoutProject} />
-
             <a href="https://damp-river-50096.herokuapp.com/">
-                    <img className="work-link" src={linkImage}></img>
-                  </a>
-                  <a href="https://github.com/Browntuckerr/FullStackWorkout">
-                    <img className="work-git" src={githubSymbol}></img>
-                  </a>
-
+              <img className="work-link" src={linkImage}></img>
+            </a>
+            <a href="https://github.com/Browntuckerr/FullStackWorkout">
+              <img className="work-git" src={githubSymbol}></img>
+            </a>
           </div>
           <div class="item">
             <h4>Weather API</h4>
-            
             Uses 3rd party APIs, Javasript, CSS.
             <img class="projectImages" src={weather} />
-
             <a href="https://carlinjshaw.github.io/cshaw-weather-app/">
-                    <img className="work-link" src={linkImage}></img>
-                  </a>
-                  <a href="https://github.com/carlinjshaw/cshaw-weather-app">
-                    <img className="work-git" src={githubSymbol}></img>
-                  </a>
+              <img className="work-link" src={linkImage}></img>
+            </a>
+            <a href="https://github.com/carlinjshaw/cshaw-weather-app">
+              <img className="work-git" src={githubSymbol}></img>
+            </a>
           </div>
         </div>
       </div>

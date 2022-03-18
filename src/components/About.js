@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../assets/profile.jpg'
+import profile from '../assets/profile_woods.jpg'
 import Form from 'react-bootstrap/Form'
 import FloatingLabel from 'react-bootstrap/esm/FloatingLabel';
 

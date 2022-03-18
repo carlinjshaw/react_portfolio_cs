@@ -32,64 +32,74 @@ event.preventDefault()
       window.alert("invalid email. please enter a valid email")
     }
   } 
+
+  
+  
 }
 
 //this validates that the message entry has text in it
 const onBlurdHandler = (event) => {
-
-  // if (event.target.id === "textEntry") {
-    const messageValue = event.target.value
-
-    if(messageValue === "") {
-      window.alert("Please enter a message")
-    }
   
+  const messageValue = event.target.value
+
+  if(messageValue === "") {
+    window.alert("Please enter a message")
+  }  
 }
 
   function connectForm() {
     if (props.currentPage === "Connect") {
       return (
-        <div className='connect-page'>
-          <div className= 'connect-form'>
-          <h4>Want to connect?</h4>
-          <Form className = 'cnt-form-items'>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Name:</Form.Label>
-              <Form.Control
-                onBlur={onBlurdHandler}
-                onChange={onChangeHandler}
-                id="nameEntry"
-                placeholder="John Smith"
-                value={nameValue}
-              />
-            </Form.Group>
+        <div className="connect-page">
+          <div className="connect-form">
+            <h4>Want to connect?</h4>
+            <a className="email-link" href= "mailto:carlinjshaw@gmail.com">Send me an Email</a>
 
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address:</Form.Label>
-              <Form.Control
-                onBlur={onBlurHandler}
-                onChange={onChangeHandler}
-                id="email"
-                type="email"
-                placeholder="name@example.com"
-                value={emailValue}
-              />
-            </Form.Group>
-            <Form.Group
-              className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
-            >
-              <Form.Label>Message:</Form.Label>
-              <Form.Control
-                onBlur={onBlurdHandler}
-                onChange={onChangeHandler}
-                id="textEntry"
-                as="textarea"
-                rows={3}
-                value={textValue}
-              />
-            </Form.Group>
-          </Form>
+
+            {/* <Form className="cnt-form-items">
+              <Form.Group
+                className="mb-3"
+                controlId="exampleForm.ControlInput1"
+              >
+                <Form.Label>Name:</Form.Label>
+                <Form.Control
+                  onBlur={onBlurdHandler}
+                  onChange={onChangeHandler}
+                  id="nameEntry"
+                  // placeholder="John Smith"
+                  value={nameValue}
+                />
+              </Form.Group>
+
+              <Form.Group
+                className="mb-3"
+                controlId="exampleForm.ControlInput1"
+              >
+                <Form.Label>Email address:</Form.Label>
+                <Form.Control
+                  onBlur={onBlurHandler}
+                  onChange={onChangeHandler}
+                  id="email"
+                  type="email"
+                  // placeholder="name@example.com"
+                  value={emailValue}
+                />
+              </Form.Group>
+              <Form.Group
+                className="mb-3"
+                controlId="exampleForm.ControlTextarea1"
+              >
+                <Form.Label>Message:</Form.Label>
+                <Form.Control
+                  onBlur={onBlurdHandler}
+                  onChange={onChangeHandler}
+                  id="textEntry"
+                  as="textarea"
+                  rows={3}
+                  value={textValue}
+                />
+              </Form.Group>
+            </Form> */}
           </div>
         </div>
       );
