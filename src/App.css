@@ -48,7 +48,7 @@
 .item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   margin: 20px;
   color: white;
   position: relative;
@@ -61,27 +61,37 @@
   border-color: white;
 }
 
-.projectImages:hover {
-  opacity: 0.5;
-}
 
-.work-mvs-link {
+.work-link {
   width: 25px;
   height: 25px;
   position: absolute;
   top: 50%;
   left: 40%;
-  display: hide;
-  visibility: hidden;
+  display: none;
 }
 
-.work-mvs-git {
+.work-git {
   width: 25px;
   height: 25px;
   position: absolute;
   top: 50%;
   left: 60%;
+  display: none;
 }
+
+.projectImages:hover {
+  opacity: 0.3;
+}
+
+.item:hover .work-git{
+  display:block;
+}
+
+.item:hover .work-link {
+  display:block;
+}
+
 
 /* For the connect component */
 .connect-page {
