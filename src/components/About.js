@@ -8,13 +8,17 @@ function About(props) {
     return (
       <div class="about_page">
         <h2 className="about-hello">Hello, Im Carlin</h2>
-        <img class="profileImage about_item" src={profile}></img>
-        <article className="about_text item">
-          <p>Carlin Shaw</p>
-          <p>STEM teacher</p>
+        <div className="about-pic-article">
+        <img class="profileImage" src={profile}></img>
+        <article className="about_text">
+          <p>Pleased to meet you!</p>
+          <p>My name is Carlin Shaw. I have been an STEM educator in public school most of my profession life.
+            Web development was an easy addition to my love for science and creativity.
+             
+          </p>
           <p>Junior Developer</p>
         </article>
-
+        </div>
       </div>
     );
   } else {
