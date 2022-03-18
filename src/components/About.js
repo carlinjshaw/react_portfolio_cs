@@ -12,11 +12,11 @@ function About(props) {
         <img class="profileImage" src={profile}></img>
         <article className="about_text">
           <p>Pleased to meet you!</p>
-          <p>My name is Carlin Shaw. I have been an STEM educator in public school most of my profession life.
+          <p>My name is Carlin Shaw. I have been an STEM educator in public school for most of my profession life.
             Web development was an easy addition to my love for science and creativity.
-             
+
           </p>
-          <p>Junior Developer</p>
+          <p></p>
         </article>
         </div>
       </div>
