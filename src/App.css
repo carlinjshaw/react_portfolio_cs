@@ -113,14 +113,15 @@
   width:500px
 }
 
+/* for resume component */
+
 .resume-page {
   background-color: rgb(73, 129, 167);
-  width: 100vw;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .resume {
@@ -128,6 +129,7 @@
   border-radius: 15px;
   border: solid;
   border-color: black;
+  box-shadow: 9px 7px 22px 8px ;
 }
 
 .resume:hover{
@@ -135,37 +137,46 @@
 }
 
 
-button {
-  font-size: 2em;
+.resume_button {
+  font-size: 1em;
   background: rgb(57, 104, 134);
-  
   border: 0.25rem solid black;
-  padding: 0.85em 0.75em;
-  margin: 1rem;
+  padding: 0.2em 0.5em;
+  margin-top: 30px;
   position: relative;
   z-index: 1;
   overflow: hidden;  
 }
 
-button:hover {
+.resume-btn-word {
   color: black;
-  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
 }
 
-button::after {
+.resume-btn-word:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.resume_button:hover {
+  color: black;
+}
+
+.resume_button::after {
   content: "";
-  background: #ecf0f1;
+  background: #fdfdef;
   position: absolute;
   z-index: -1;
   padding: 0.85em 0.75em;
   display: block;
 }
 
-button[class^="slide"]::after {
+.resume_button[class^="slide"]::after {
   transition: all 0.35s;
 }
 
-button[class^="slide"]:hover::after {
+.resume_button[class^="slide"]:hover::after {
   left: 0;
   right: 0;
   top: 0;
@@ -173,15 +184,11 @@ button[class^="slide"]:hover::after {
   transition: all 0.35s;
 }
 
-button.slide_from_top::after {
+.resume_button.slide_from_top::after {
   left: 0;
   right: 0;
   top: -100%;
   bottom: 100%;
-}
-
-.resume-button {
-  margin-top: 30px;
 }
 
 a {

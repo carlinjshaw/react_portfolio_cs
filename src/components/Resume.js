@@ -7,9 +7,9 @@ function Resume(props) {
         if(props.currentPage === "Resume") {
             return (
               <div className="resume-page">
-                <div className="resume-button">
-                  <button class="slide_from_top">
-                  <a href={resume} >Download</a>
+                <div>
+                  <button class="slide_from_top resume_button">
+                  <a className= "resume-btn-word" href={resume} >Download</a>
                   </button>
                 </div>
 
