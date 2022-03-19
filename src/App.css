@@ -92,6 +92,7 @@
 
 .projectImages:hover {
   opacity: 0.3;
+  box-shadow: 5px 5px 5px 5px black;
 }
 
 .item:hover .work-git{
