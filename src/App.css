@@ -127,6 +127,17 @@
 .email-link {
   text-decoration: none;
   color: white;
+  margin: 30px;
+}
+
+.connect-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.email-img {
+  width: 40px;
+  height: 40px;
 }
 
 /* for resume component */

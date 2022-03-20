@@ -1,6 +1,9 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form'
 import {useState} from 'react';
+import email_pic from '../assets/emailPictwo.png'
+import linkedInPic from '../assets/LinkedIn_logo.png'
+import githubPic from '../assets/github-153-675523.png'
 
 
 function Connect(props) {
@@ -53,9 +56,11 @@ const onBlurdHandler = (event) => {
         <div className="connect-page">
           <div className="connect-form">
             <h4>Want to connect?</h4>
-            <a className="email-link" href= "mailto:carlinjshaw@gmail.com">Send me an Email</a>
-
-
+            <div className= 'connect-links'>
+            <a className="email-link" href= "mailto:carlinjshaw@gmail.com"><img className='email-img' src={email_pic}></img></a>
+            <a className="email-link" href= "https://www.linkedin.com/in/carlin-shaw-352b8bb1/"><img className='email-img' src={linkedInPic}></img></a>
+            <a className="email-link" href= "https://github.com/carlinjshaw"><img className='email-img' src={githubPic}></img></a>
+            </div>
             {/* <Form className="cnt-form-items">
               <Form.Group
                 className="mb-3"
