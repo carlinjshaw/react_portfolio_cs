@@ -40,6 +40,21 @@
   margin-right: 5%;
 }
 
+@media (max-width:1050px) {
+  .about_page {
+    justify-content: center;
+  }
+  .about-pic-article {
+    flex-direction: column;
+  }
+  .about-hello {
+    border: solid black 5px;
+  }
+  .profileImage {
+    margin:auto;
+    margin-left: 0;
+  }
+}
 
 /* the following are for the work page */
 .cards-container {
