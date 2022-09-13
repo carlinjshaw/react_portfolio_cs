@@ -9,7 +9,7 @@ function About(props) {
       <div class="about_page">
         <h2 className="about-hello">Hello, Im Carlin</h2>
         <div className="about-pic-article">
-        <img class="profileImage" src={profile}></img>
+        {/* <img class="profileImage" src={profile}></img> */}
         <article className="about_text">
           <p>Pleased to meet you!</p>
           <p>My name is Carlin Shaw. I have been an STEM educator in public school for most of my profession life.

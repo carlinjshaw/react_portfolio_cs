@@ -1,11 +1,37 @@
 /* for about component: */
 
+.my-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  align-content: center;
+  background-color: rgb(93, 93, 93);
+  color: white;
+}
+.nav-title {
+  font-size: large;
+  font-weight: 800;
+  margin-left: 10%;
+}
+
+.nav-navs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.nav-item {
+  margin-left: 120px;
+}
+
+
+
 .about_page {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
   /* flex-wrap: wrap; */
-  background-color: rgb(73, 129, 167);
+  background-color: rgb(93, 93, 93);
   width: 100vw;
   min-height: 100vh;
 }
@@ -40,21 +66,6 @@
   margin-right: 5%;
 }
 
-@media (max-width:1050px) {
-  .about_page {
-    justify-content: center;
-  }
-  .about-pic-article {
-    flex-direction: column;
-  }
-  .about-hello {
-    border: solid black 5px;
-  }
-  .profileImage {
-    margin:auto;
-    margin-left: 0;
-  }
-}
 
 /* the following are for the work page */
 .cards-container {
@@ -65,7 +76,7 @@
   }
 
 .workPage {
-  background-color: rgb(73, 129, 167);
+  background-color: rgb(93, 93, 93);
   width: 100vw;
   min-height: 100vh;
 }
@@ -124,7 +135,7 @@
 
 /* For the connect component */
 .connect-page {
-  background-color: rgb(73, 129, 167);
+  background-color: rgb(93, 93, 93);
   width: 100vw;
   min-height: 100vh;
 }
@@ -161,7 +172,7 @@
 /* for resume component */
 
 .resume-page {
-  background-color: rgb(73, 129, 167);
+  background-color: rgb(93, 93, 93);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -238,4 +249,70 @@
 
 a {
   text-decoration: none !important;
+}
+
+@media (min-width:400px) {
+  .my-navbar {
+    border: solid black 5px;
+    flex-direction: column;
+  }
+  .nav-title {
+    margin: auto;
+  }
+  .nav-navs {
+    display:flex;
+    margin: auto;
+     justify-content: space-between;    
+    width: 80%;
+    flex-wrap:wrap;
+    flex-direction: column;
+    border: solid rgb(215, 20, 20) 5px;
+  }
+  .nav-item {
+    margin: auto;
+    /* padding: 50px; */
+    /* width: 20px; */
+  }
+} 
+
+
+@media (max-width:850px) {
+  .my-navbar {
+    border: solid black 5px;
+    flex-direction: column;
+  }
+  .nav-title {
+    margin: auto;
+  }
+  .nav-navs {
+    margin: auto;
+    /* justify-content: space-between;    */
+    width: 80%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  .nav-item {
+    margin: auto;
+    /* padding: 50px; */
+    width: 10%;
+  }
+}
+
+
+@media (max-width:1050px) {
+  .about_page {
+    justify-content: center;
+
+  }
+  .about-pic-article {
+    flex-direction: column;
+  }
+  .about-hello {
+    border: solid black 5px;
+  }
+  .profileImage {
+    margin:auto;
+    margin-left: 0;
+  }
 }
