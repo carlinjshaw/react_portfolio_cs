@@ -15,7 +15,7 @@ function Header(props) {
         <p class="nav-item" href="#resume" onClick={() => {props.setCurrentPage("Resume")}}>Resume</p>
         <p class="nav-item" href="#connect" onClick={() => {props.setCurrentPage("Connect")}}>Connect</p>  
         </div>
-        </nav>  
+        </nav> 
   {/* <Navbar  bg="dark" variant="dark">
     <Container>
     <Navbar.Brand href="#home" onClick={() => {props.setCurrentPage("Home")}} >Developer Portfolio</Navbar.Brand>
