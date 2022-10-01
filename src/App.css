@@ -25,7 +25,8 @@
 }
 
 .nav-item {
-  margin-left: 120px;
+  margin-left: 60px;
+  margin-right:60px
 }
 
 .nav-item:hover {
@@ -41,7 +42,7 @@
   /* align-items: center; */
   /* flex-wrap: wrap; */
   background-color: rgb(93, 93, 93);
-  width: 100vw;
+  /* width: 100vw; */
   min-height: 100vh;
 }
 
@@ -75,6 +76,10 @@
   margin-right: 5%;
 }
 
+.about-writing {
+  display:flex;
+  justify-content: center;
+}
 
 /* the following are for the work page */
 .cards-container {
@@ -177,6 +182,9 @@
   width: 40px;
   height: 40px;
 }
+.email-img:hover {
+  opacity: 0.4;
+}
 
 /* for resume component */
 
@@ -260,9 +268,9 @@ a {
   text-decoration: none !important;
 }
 
-@media (max-width:1050px) {
+@media (max-width:1150px) {
   .about_page {
-    justify-content: center;
+    /* justify-content: center; */
 
   }
   .about-pic-article {
@@ -272,8 +280,8 @@ a {
     /* border: solid black 5px; */
   }
   .profileImage {
-    margin:auto;
-    margin-left: 0;
+    /* margin:auto;
+    margin-left: 0; */
   }
 }
 
@@ -300,7 +308,7 @@ a {
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:415px) {
   .my-navbar {
     /* border: solid black 5px; */
     flex-direction: column; 
@@ -313,7 +321,9 @@ a {
     font-size: ;
   } */
   .nav-title {
-    margin: auto;
+    margin: 5%;
+    display:flex;
+    justify-content: center;
   }
   .nav-navs {
     display:flex;
@@ -332,6 +342,19 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .projectImages {
+    width: 300px;
+    height: 250px;
+  }
+  .projectImages:hover {
+    opacity: 0.7;
+  box-shadow: 5px 5px 5px 5px black;
+  width: 300px;
+  height: 250px;
+  }
+  .connect-links{
+    flex-direction: column;
   }
 } 
 

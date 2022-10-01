@@ -9,7 +9,7 @@ function Home(props) {
         {/* <img class="profileImage" src={profile}></img> */}
         <article className="about_text">
           <p>Thanks for visiting. </p>
-          <p>Explore to see my work in Web Development and experience in programming. 
+          <p class = "about_writing">Explore to see a little about me, my work in Web Development and experience in programming. 
           </p>
           <p></p>
         </article>
