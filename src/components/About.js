@@ -11,7 +11,7 @@ function About(props) {
         <div className="about-pic-article">
         {/* <img class="profileImage" src={profile}></img> */}
         <article className="about_text">
-          <p class = "about_writing">I never thought I would become a programmer.</p>
+          <p class = "about_writing">I NEVER EVER thought I would become a programmer.</p>
           <p>Since I was five I knew I loved science and understanding the natural world. 
             In college I studied math, physics and philosophy even how to teach english in a foreign country.</p>
           <p>I decided to be a science teacher after college.</p>
