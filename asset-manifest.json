@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/test_react_repo-.git/static/css/main.deea3df7.chunk.css",
+    "main.js": "/test_react_repo-.git/static/js/main.846063f0.chunk.js",
+    "main.js.map": "/test_react_repo-.git/static/js/main.846063f0.chunk.js.map",
+    "runtime-main.js": "/test_react_repo-.git/static/js/runtime-main.6bd77eff.js",
+    "runtime-main.js.map": "/test_react_repo-.git/static/js/runtime-main.6bd77eff.js.map",
+    "static/css/2.818011ed.chunk.css": "/test_react_repo-.git/static/css/2.818011ed.chunk.css",
+    "static/js/2.d3ce2b8f.chunk.js": "/test_react_repo-.git/static/js/2.d3ce2b8f.chunk.js",
+    "static/js/2.d3ce2b8f.chunk.js.map": "/test_react_repo-.git/static/js/2.d3ce2b8f.chunk.js.map",
+    "static/js/3.e9697aa3.chunk.js": "/test_react_repo-.git/static/js/3.e9697aa3.chunk.js",
+    "static/js/3.e9697aa3.chunk.js.map": "/test_react_repo-.git/static/js/3.e9697aa3.chunk.js.map",
+    "index.html": "/test_react_repo-.git/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/test_react_repo-.git/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.deea3df7.chunk.css.map": "/test_react_repo-.git/static/css/main.deea3df7.chunk.css.map",
+    "static/js/2.d3ce2b8f.chunk.js.LICENSE.txt": "/test_react_repo-.git/static/js/2.d3ce2b8f.chunk.js.LICENSE.txt",
+    "static/media/Carlin_Shaw_Developer_Resume.20e0c48e.pdf": "/test_react_repo-.git/static/media/Carlin_Shaw_Developer_Resume.20e0c48e.pdf",
+    "static/media/MVC_project.d771ac4c.png": "/test_react_repo-.git/static/media/MVC_project.d771ac4c.png",
+    "static/media/access_refactor.032ee10a.png": "/test_react_repo-.git/static/media/access_refactor.032ee10a.png",
+    "static/media/crypt_crawler.df3daefb.png": "/test_react_repo-.git/static/media/crypt_crawler.df3daefb.png",
+    "static/media/emailPictwo.321e912c.png": "/test_react_repo-.git/static/media/emailPictwo.321e912c.png",
+    "static/media/express_projects.1f2a4ab4.png": "/test_react_repo-.git/static/media/express_projects.1f2a4ab4.png",
+    "static/media/github-153-675523.22f3518f.png": "/test_react_repo-.git/static/media/github-153-675523.22f3518f.png",
+    "static/media/link_image.4c2f709e.webp": "/test_react_repo-.git/static/media/link_image.4c2f709e.webp",
+    "static/media/password_gen_project.cc2b066c.png": "/test_react_repo-.git/static/media/password_gen_project.cc2b066c.png",
+    "static/media/profile_woods.6a9cfe37.jpg": "/test_react_repo-.git/static/media/profile_woods.6a9cfe37.jpg",
+    "static/media/resume.1f116ecb.png": "/test_react_repo-.git/static/media/resume.1f116ecb.png",
+    "static/media/sql_inquirer_project.82fab6de.PNG": "/test_react_repo-.git/static/media/sql_inquirer_project.82fab6de.PNG",
+    "static/media/weather-api.f5565418.PNG": "/test_react_repo-.git/static/media/weather-api.f5565418.PNG",
+    "static/media/workout-app.73192c53.PNG": "/test_react_repo-.git/static/media/workout-app.73192c53.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bd77eff.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.d3ce2b8f.chunk.js",
+    "static/css/main.deea3df7.chunk.css",
+    "static/js/main.846063f0.chunk.js"
+  ]
+}
