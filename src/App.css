@@ -1,5 +1,6 @@
 /* for about component: */
 
+
 .my-navbar {
   display: flex;
   flex-wrap: wrap;
@@ -48,7 +49,7 @@
 
 .about-hello {
   color: white;
-  padding-block: 50px;
+  padding-top: 50px;
   margin-left: 5%;
   width: 30%;
 }
@@ -56,6 +57,8 @@
 .about-pic-article {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .profileImage {
@@ -71,14 +74,21 @@
 .about_text {
   font-size: x-large;
   color: white;
-  margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.about_page_text p {
+  text-align: center;
+}
+.about_page_text {
+  width: 60%;
 }
 
 .about-writing {
   display:flex;
   justify-content: center;
+  text-align: center;
 }
 
 /* the following are for the work page */
@@ -202,7 +212,8 @@
   border-radius: 15px;
   border: solid;
   border-color: black;
-  box-shadow: 9px 7px 22px 8px ;
+  box-shadow: 9px 7px 22px 8px;
+  width: 70%
 }
 
 .resume:hover{
@@ -282,6 +293,9 @@ a {
   .profileImage {
     /* margin:auto;
     margin-left: 0; */
+  }
+  .resume {
+    width: 100%
   }
 }
 

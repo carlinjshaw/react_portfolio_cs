@@ -10,16 +10,21 @@ function About(props) {
         <h2 className="about-hello">My journey into Web Development</h2>
         <div className="about-pic-article">
         {/* <img class="profileImage" src={profile}></img> */}
-        <article className="about_text">
-          <p class = "about_writing">I NEVER EVER thought I would become a programmer.</p>
-          <p>Since I was five I knew I loved science and understanding the natural world. 
-            In college I studied math, physics and philosophy even how to teach english in a foreign country.</p>
-          <p>I decided to be a science teacher after college.</p>
-          <p>Because I was teaching engineering and robotics, I was exposed to basic programming.</p>
-          <p>I started to see how computers are a compilation of humanities greatest scientific acheivments. 
-            I grew to appreciate the fun of problem solving and the creativity required to do so.</p>
-          <p>I went back to school at UCF and went through their Full stack coding bootcamp.</p>
-          <p>Then I became an AP computer Science teacher.</p>   
+        <article className="about_text about_page_text">
+          <p>Since I was young, I had an affinity for science and understanding the natural world. 
+            In college, I was not sure what I would do with my life
+            but I knew I enjoyed teaching. I studied math, physics and philosophy 
+            and got a certificate to teach english in a foreign country.</p>
+            <p>Right out of college I taught physical science in 8th grade, then for three years
+            I taught engineering. Because I was teaching engineering and VEX robotics, I was exposed to basic programming in C. I started to see how computers are a compilation of humanities greatest scientific acheivments. 
+            and grew to appreciate the fun of problem solving and the creativity required to do so. 
+        I went back to school at UCF and went through their Full stack coding bootcamp.
+          Meanwhile, I became an AP computer Science teacher and learned Python and Java. My students did great
+            with an 83% pass rate on the AP exam.</p>
+            <p>While teaching, I started working part time for 2U and EdX to be a teaching assistant 
+              for the same bootcamp that I was a part of.
+            Since then I have continued with 2U education tutoring and helping students build full stack projects.
+                Building state of the art websites and learning web Development continues to be my passion.</p>   
         </article>
         </div>
       </div>
