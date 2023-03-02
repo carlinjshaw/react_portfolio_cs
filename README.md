@@ -1,5 +1,8 @@
-# Portfolio
-This portfolio is a React Application that showcases some of my Web Development work. 
+# Summary
+This portfolio is a Single Page Application with React that showcases some of my Web Development work. It uses props and the useState hook to naviagte between pages.
 
-# Link
+#Technologies Used
+React.JS, React Bootstrap
+
+# Deployed Site
 https://carlinjshaw.github.io/react_portfolio_cs/
