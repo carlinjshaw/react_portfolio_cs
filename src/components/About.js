@@ -6,10 +6,9 @@ import FloatingLabel from 'react-bootstrap/esm/FloatingLabel';
 function About(props) {
   if (props.currentPage === "About") {
     return (
-      <div class="about_page">
+      <div className="about_page">
         <h2 className="about-hello">My journey into Web Development</h2>
         <div className="about-pic-article">
-        {/* <img class="profileImage" src={profile}></img> */}
         <article className="about_text about_page_text">
           <p>Since I was young, I had an affinity for science and understanding the natural world. 
             In college, I was not sure what I would do with my life

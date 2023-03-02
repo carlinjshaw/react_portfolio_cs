@@ -7,13 +7,13 @@ import React from 'react';
 function Header(props) {
     return (
         <div>
-        <nav class = "my-navbar">
-        <p class = "nav-title"href="#home" onClick={() => {props.setCurrentPage("Home")}} >Developer Portfolio</p>
-        <div class="nav-navs">
-        <p class="nav-item" href="#About" onClick={() => {props.setCurrentPage("About")}} >About</p>
-        <p class="nav-item" href="#work" onClick={() => {props.setCurrentPage("Work")}}>Work</p>
-        <p class="nav-item" href="#resume" onClick={() => {props.setCurrentPage("Resume")}}>Resume</p>
-        <p class="nav-item" href="#connect" onClick={() => {props.setCurrentPage("Connect")}}>Connect</p>  
+        <nav className = "my-navbar">
+        <p className = "nav-title"href="#home" onClick={() => {props.setCurrentPage("Home")}} >Developer Portfolio</p>
+        <div className="nav-navs">
+        <p className="nav-item" href="#About" onClick={() => {props.setCurrentPage("About")}} >About</p>
+        <p className="nav-item" href="#work" onClick={() => {props.setCurrentPage("Work")}}>Work</p>
+        <p className="nav-item" href="#resume" onClick={() => {props.setCurrentPage("Resume")}}>Resume</p>
+        <p className="nav-item" href="#connect" onClick={() => {props.setCurrentPage("Connect")}}>Connect</p>  
         </div>
         </nav> 
   {/* <Navbar  bg="dark" variant="dark">

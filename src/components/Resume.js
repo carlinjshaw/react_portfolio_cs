@@ -8,7 +8,7 @@ function Resume(props) {
             return (
               <div className="resume-page">
                 <div>
-                  <button class="slide_from_top resume_button">
+                  <button className="slide_from_top resume_button">
                   <a className= "resume-btn-word" href={resume} >Download</a>
                   </button>
                 </div>
