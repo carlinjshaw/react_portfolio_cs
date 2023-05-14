@@ -55,11 +55,11 @@ const onBlurdHandler = (event) => {
       return (
         <div className="connect-page">
           <div className="connect-form">
-            <h4>Want to connect?</h4>
+            <h1>Want to connect?</h1>
             <div className= 'connect-links'>
-            <a className="email-link" href= "mailto:carlinjshaw@gmail.com"><img className='email-img' src={email_pic}></img></a>
-            <a className="email-link" href= "https://www.linkedin.com/in/carlin-shaw-352b8bb1/"><img className='email-img' src={linkedInPic}></img></a>
-            <a className="email-link" href= "https://github.com/carlinjshaw"><img className='email-img' src={githubPic}></img></a>
+            <a className="email-link" href= "mailto:carlinjshaw@gmail.com"><img alt="email" className='email-img' src={email_pic}></img></a>
+            <a className="email-link" href= "https://www.linkedin.com/in/carlin-shaw-352b8bb1/"><img alt="linkedin" className='email-img' src={linkedInPic}></img></a>
+            <a className="email-link" href= "https://github.com/carlinjshaw"><img alt="gh" className='email-img' src={githubPic}></img></a>
             </div>
             {/* <Form className="cnt-form-items">
               <Form.Group

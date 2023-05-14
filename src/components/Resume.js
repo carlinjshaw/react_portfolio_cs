@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/Carlin_Shaw_Developer_Resume.pdf'
+import resume from '../assets/Carlin_Shaw_Resume.pdf'
 import resume_pic from '../assets/resume.png'
 
 function Resume(props) {
@@ -13,7 +13,7 @@ function Resume(props) {
                   </button>
                 </div>
 
-                <img className="resume" src={resume_pic}></img>
+                <img alt=" resume" className="resume" src={resume_pic}></img>
               </div>
             );
         } else {
