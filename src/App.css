@@ -380,7 +380,7 @@ a {
   }
 }
 
-@media (max-width:415px) {
+@media (max-width:450px) {
   .my-navbar {
     /* border: solid black 5px; */
     flex-direction: column; 
@@ -416,17 +416,35 @@ a {
     align-items: center;
   }
   .projectImages {
-    width: 300px;
-    height: 250px;
+    /* width: 300px;
+    height: 250px; */
   }
   .projectImages:hover {
     opacity: 0.7;
   box-shadow: 5px 5px 5px 5px black;
-  width: 300px;
-  height: 250px;
+  /* width: 300px;
+  height: 250px; */
   }
   .connect-links{
     flex-direction: column;
+  }
+
+  .about_page_text {
+    width: 90%;
+  }
+
+  .about_page h2 {
+    margin-bottom: 6%;
+  }
+
+  .about-hello {
+    width: 85%;
+  }
+  .nav-item{
+    margin-top:20px;
+  }
+  .nav-title {
+    margin: 0px;
   }
 } 
 
