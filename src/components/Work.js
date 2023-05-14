@@ -12,6 +12,8 @@ import accessRefactor from '../assets/access_refactor.png'
 import googleAPI from '../assets/google_api.png'
 import road2react from '../assets/road_to_react.png'
 import teamGen from '../assets/team_generator.png'
+import ORM_store from '../assets/orm_sequelize.png'
+import nosql_social from '../assets/nosql_social.png'
 
 
 function Work(props) {
@@ -124,6 +126,22 @@ function Work(props) {
             OOP, Node.js, Javascript, Inquirer
             <img alt="prject" className="projectImages" src={teamGen} />
             <a href="https://github.com/carlinjshaw/oop-profile-generator-cshaw">
+              <img alt="prject" style={{ left: "46%" }} className="work-git" src={githubSymbol}></img>
+            </a>
+          </div>
+          <div className="item">
+            <h4>E-Commerce Back End</h4>
+            Sequelize ORM, Node.js, Javascript, Express.js
+            <img alt="prject" className="projectImages" src={ORM_store} />
+            <a href="https://github.com/carlinjshaw/ORM-sequelize-cshaw">
+              <img alt="prject" style={{ left: "46%" }} className="work-git" src={githubSymbol}></img>
+            </a>
+          </div>
+          <div className="item">
+            <h4>NoSql Social Network Back End</h4>
+            Mongoose, NoSql, Node.js, Javascript, Express.js
+            <img alt="prject" className="projectImages" src={nosql_social} />
+            <a href="https://github.com/carlinjshaw/NoSql-social_media_api_Shaw">
               <img alt="prject" style={{ left: "46%" }} className="work-git" src={githubSymbol}></img>
             </a>
           </div>
