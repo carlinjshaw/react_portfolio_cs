@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_portfolio_cs/static/css/main.4dd17c5d.css",
-    "main.js": "/react_portfolio_cs/static/js/main.681691aa.js",
+    "main.js": "/react_portfolio_cs/static/js/main.fb1b27c3.js",
     "static/js/787.4048b011.chunk.js": "/react_portfolio_cs/static/js/787.4048b011.chunk.js",
     "static/media/workout-app.PNG": "/react_portfolio_cs/static/media/workout-app.73192c530a5c04507029.PNG",
     "static/media/access_refactor.png": "/react_portfolio_cs/static/media/access_refactor.032ee10a09f85ff5583a.png",
@@ -10,8 +10,10 @@
     "static/media/Carlin_Shaw_Resume.pdf": "/react_portfolio_cs/static/media/Carlin_Shaw_Resume.9f89b3f3335239e05c1b.pdf",
     "static/media/google_api.png": "/react_portfolio_cs/static/media/google_api.df72cc823fdb3933523d.png",
     "static/media/resume.png": "/react_portfolio_cs/static/media/resume.854fbad2abc8cf0a0fce.png",
+    "static/media/orm_sequelize.png": "/react_portfolio_cs/static/media/orm_sequelize.f6a53947d0b98302a61e.png",
     "static/media/team_generator.png": "/react_portfolio_cs/static/media/team_generator.38919f9f5a29b3038ae3.png",
     "static/media/road_to_react.png": "/react_portfolio_cs/static/media/road_to_react.3b23d1b0bbba75fd9caa.png",
+    "static/media/nosql_social.png": "/react_portfolio_cs/static/media/nosql_social.0c98fa64e1f8e73f11af.png",
     "static/media/sql_inquirer_project.PNG": "/react_portfolio_cs/static/media/sql_inquirer_project.82fab6dec34f88d8ba01.PNG",
     "static/media/emailPictwo.png": "/react_portfolio_cs/static/media/emailPictwo.321e912c5b4ff6898c2f.png",
     "static/media/profile.jpg": "/react_portfolio_cs/static/media/profile.e70fb98d16bf83fbdddf.jpg",
@@ -24,11 +26,11 @@
     "static/media/link_image.webp": "/react_portfolio_cs/static/media/link_image.4c2f709e259b8d57da63.webp",
     "index.html": "/react_portfolio_cs/index.html",
     "main.4dd17c5d.css.map": "/react_portfolio_cs/static/css/main.4dd17c5d.css.map",
-    "main.681691aa.js.map": "/react_portfolio_cs/static/js/main.681691aa.js.map",
+    "main.fb1b27c3.js.map": "/react_portfolio_cs/static/js/main.fb1b27c3.js.map",
     "787.4048b011.chunk.js.map": "/react_portfolio_cs/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd17c5d.css",
-    "static/js/main.681691aa.js"
+    "static/js/main.fb1b27c3.js"
   ]
 }
