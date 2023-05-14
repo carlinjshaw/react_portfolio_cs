@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../assets/profile.jpg'
+import profile from '../assets/profile.png'
 
 function Home(props) {
   if (props.currentPage === "Home") {
