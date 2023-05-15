@@ -7,6 +7,12 @@
   /*background-size: cover;
   background-repeat: no-repeat;
 } */
+a { 
+  /* color: inherit;  */
+  font-style: italic;
+  text-decoration: none !important;
+} 
+
 
 .my-navbar {
   display: flex;
@@ -72,7 +78,7 @@
 }
 
 .profileImage {
-  width: 50%; 
+  width: 35%; 
   height: auto;
   margin-left: 10%;
   border-radius: 18px;
@@ -310,14 +316,43 @@
   bottom: 100%;
 }
 
-a {
-  text-decoration: none !important;
+.footer {
+  display:flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  padding-bottom: 2%;
+}
+.footer-nav {
+  display:flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.footer-item {
+  margin: 2px;
+}
+.footer-contact {
+  display:flex;
+  flex-direction: column;
+}
+.footer-contact-img {
+  width: 30px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top:15%;
+  margin-bottom: 15%;  
+}
+.footer-contact-img:hover {
+  opacity: 0.7;
+box-shadow: 1px 1px 1px 1px black;
+border: red;
+}
+.footer-item:hover {
+  font-weight: bold;
 }
 
-/* body{
-  background-color: red !important;
-  background-image: "./assets/crypt_crawler.png" !important;
-} */
 
 @media (max-width:1150px) {
   .about-pic-article {
@@ -389,9 +424,6 @@ a {
   .my-navbar > p {
     font-size: x-large;
   }
-  /* .my-navbar > p: hover {
-    font-size: ;
-  } */
   .nav-title {
     margin: 5%;
     display:flex;
@@ -399,44 +431,29 @@ a {
   }
   .nav-navs {
     display:flex;
-    /* margin: 0; */
-     /* justify-content: space-between;     */
-    /* width: 80%; */
     flex-wrap:wrap;
     flex-direction: column;
-    /* border: solid rgb(215, 20, 20) 5px; */
-    
   }
   .nav-item {
     font-size:large;
-
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .projectImages {
-    /* width: 300px;
-    height: 250px; */
-  }
   .projectImages:hover {
     opacity: 0.7;
-  box-shadow: 5px 5px 5px 5px black;
-  /* width: 300px;
-  height: 250px; */
+  box-shadow: 1px 1px 1px 1px black;
   }
   .connect-links{
     flex-direction: column;
   }
-
   .about_page_text {
     width: 90%;
   }
-
   .about_page h2 {
     margin-bottom: 6%;
   }
-
   .about-hello {
     width: 85%;
   }
@@ -445,6 +462,12 @@ a {
   }
   .nav-title {
     margin: 0px;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .footer-contact {
+    flex-direction: row;
   }
 } 
 

@@ -19,7 +19,7 @@ function About(props) {
             and grew to appreciate the fun of problem solving and the creativity required to do so. 
         I went back to school at UCF and went through their Full stack coding bootcamp.
           Meanwhile, I became an AP computer Science teacher and learned Python and Java. My students did great
-            with an 83% pass rate on the AP exam.</p>
+            with an 83% pass rate on the AP exam, 20% above the national average.</p>
             <p>In May 2020, I started working part time for 2U Education to be a teaching assistant 
               for the same bootcamp that I was a part of, serving students at universities around the US and the world, tutoring and helping them build full stack projects. 
             Since then I have continued tutoring at 2U education, teaching AP Computer Science,

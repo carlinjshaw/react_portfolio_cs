@@ -19,15 +19,11 @@ function App() {
 
   const myStyle={
     backgroundImage: `url(${paintBackgrnd})`,
-    // background:`url(${paintBackgrnd})`,
     backgroundColor: "rgb(93, 93, 93)",
     alt: "background paint image",
     height:'100%',
-    // marginTop:'-70px',
-    // fontSize:'50px',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat', 
-    // backgroundBlendMode: multiply 
 };
 
 
@@ -41,6 +37,7 @@ function App() {
       <Work currentPage= {currentPage}/>
       <Connect currentPage={currentPage}/>
       <Resume currentPage={currentPage}/>
+      <Footer  setCurrentPage={setCurrentPage}/>
     </div>
   );
 }

@@ -36,7 +36,7 @@ function Work(props) {
             </a>
           </div>
           <div className="item">
-            <h4>React Game</h4>
+            <h4>MERN Game</h4>
             React, Heroku, Mongoose, GraphQL
             <img alt=" game project" className="projectImages" src={cryptGame} />
             <a href="https://crypt-crawler.herokuapp.com/">
@@ -114,7 +114,7 @@ function Work(props) {
             </a>
           </div>
           <div className="item">
-            <h4>Article Search from Road to React</h4>
+            <h4>Article Search from <a style ={{color:"white"}} href = "https://www.roadtoreact.com/">Road to React</a></h4>
             React, useState, useEffect, localStorage, APIs
             <img alt="projects" className="projectImages" src={road2react} />
             <a href="https://github.com/carlinjshaw/road_to_react">
