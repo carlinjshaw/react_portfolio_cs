@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfolio_cs/static/css/main.4dd17c5d.css",
-    "main.js": "/react_portfolio_cs/static/js/main.7c6b8f4f.js",
+    "main.css": "/react_portfolio_cs/static/css/main.489774da.css",
+    "main.js": "/react_portfolio_cs/static/js/main.776f292d.js",
     "static/js/787.4048b011.chunk.js": "/react_portfolio_cs/static/js/787.4048b011.chunk.js",
     "static/media/workout-app.PNG": "/react_portfolio_cs/static/media/workout-app.73192c530a5c04507029.PNG",
     "static/media/access_refactor.png": "/react_portfolio_cs/static/media/access_refactor.032ee10a09f85ff5583a.png",
@@ -25,12 +25,12 @@
     "static/media/github-153-675523.png": "/react_portfolio_cs/static/media/github-153-675523.22f3518f5eea48718a47.png",
     "static/media/link_image.webp": "/react_portfolio_cs/static/media/link_image.4c2f709e259b8d57da63.webp",
     "index.html": "/react_portfolio_cs/index.html",
-    "main.4dd17c5d.css.map": "/react_portfolio_cs/static/css/main.4dd17c5d.css.map",
-    "main.7c6b8f4f.js.map": "/react_portfolio_cs/static/js/main.7c6b8f4f.js.map",
+    "main.489774da.css.map": "/react_portfolio_cs/static/css/main.489774da.css.map",
+    "main.776f292d.js.map": "/react_portfolio_cs/static/js/main.776f292d.js.map",
     "787.4048b011.chunk.js.map": "/react_portfolio_cs/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dd17c5d.css",
-    "static/js/main.7c6b8f4f.js"
+    "static/css/main.489774da.css",
+    "static/js/main.776f292d.js"
   ]
 }
